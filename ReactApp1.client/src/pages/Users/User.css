@@ -1,0 +1,26 @@
+/* Users table */
+
+.users-columns {
+    grid-template-columns: 0.3fr 1.2fr 1.4fr 1.4fr 0.7fr;
+}
+
+.room-row-user {
+    display: grid;
+    grid-template-columns: 0.3fr 1.2fr 1.4fr 1.4fr 0.7fr;
+    align-items: start;
+    gap: 16px;
+    padding: 18px 22px;
+    border-bottom: 1px solid #edf1f6;
+    color: #49617f;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .room-row-user > span,
+    .users-columns > span {
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }

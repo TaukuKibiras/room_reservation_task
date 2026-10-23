@@ -1,0 +1,49 @@
+
+/* Meeting rooms table */
+
+.room-row-meetingroom {
+    display: grid;
+    grid-template-columns: 0.3fr 0.9fr 0.4fr 0.7fr 1.1fr 0.4fr 0.6fr;
+    align-items: start;
+    gap: 16px;
+    padding: 18px 22px;
+    border-bottom: 1px solid #edf1f6;
+    color: #49617f;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.meetingroom-columns {
+    grid-template-columns: 0.3fr 0.9fr 0.4fr 0.7fr 1.1fr 0.4fr 0.6fr;
+    gap: 16px;
+}
+
+    .room-row-meetingroom > span,
+    .meetingroom-columns > span {
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+/* Room status */
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.status-active {
+    color: #16834a;
+    background: #e7f8ee;
+}
+
+.status-inactive {
+    color: #b45309;
+    background: #fff4df;
+}

@@ -1,0 +1,2 @@
+C:\task\ReactApp1\reactapp1.client\obj\Debug\room_reservation_frontend.esproj.CoreCompileInputs.cache
+C:\task\room_reservations\reactapp1.client\obj\Debug\room_reservation_frontend.esproj.CoreCompileInputs.cache
